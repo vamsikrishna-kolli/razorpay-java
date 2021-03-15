@@ -17,6 +17,9 @@ public class RazorpayClient {
   public AddonClient Addons;
   public PlanClient Plans;
   public VirtualAccountClient VirtualAccounts;
+  public ContactClient Contacts;
+  public FundAccountClient FundAccounts;
+  public PayoutClient Payouts;
 
   public RazorpayClient(String key, String secret) throws RazorpayException {
     this(key, secret, false);
@@ -36,6 +39,9 @@ public class RazorpayClient {
     Addons = new AddonClient(auth);
     Plans = new PlanClient(auth);
     VirtualAccounts = new VirtualAccountClient(auth);
+    Contacts = new ContactClient(auth);
+    FundAccounts = new FundAccountClient(auth);
+    Payouts = new PayoutClient(auth);
   }
 
   public RazorpayClient addHeaders(Map<String, String> headers) {

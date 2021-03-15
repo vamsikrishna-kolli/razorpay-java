@@ -75,4 +75,21 @@ public class Constants {
   static final String VIRTUAL_ACCOUNT_EDIT = "virtual_accounts/%s";
   static final String VIRTUAL_ACCOUNT_CLOSE = "virtual_accounts/%s/close";
   static final String VIRTUAL_ACCOUNT_PAYMENTS = "virtual_accounts/%s/payments";
+  
+  static final String CONTACT_CREATE = "contacts";
+  static final String CONTACT_GET = "contacts/%s";
+  static final String CONTACT_LIST = "contacts";
+  static final String CONTACT_EDIT = "contacts/%s";
+  static final String CONTACT_ACTIVATE = "contacts/%s";
+  
+  static final String FUNDACCOUNT_CREATE = "fund_accounts";
+  static final String FUNDACCOUNT_GET = "fund_accounts/%s";
+  static final String FUNDACCOUNT_LIST = "fund_accounts";
+  static final String FUNDACCOUNT_ACTIVATE = "fund_accounts/%s";
+  
+  static final String PAYOUT_CREATE = "payouts";
+  static final String PAYOUT_GET = "payouts/%s";
+  static final String PAYOUT_LIST = "payouts";
+  static final String PAYOUT_ACTIVATE = "payouts/%s";
+
 }
